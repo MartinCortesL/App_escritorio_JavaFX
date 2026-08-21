@@ -1,2 +1,5 @@
-# App_escritorio_flutter
-Aplicación para escritorio para identificar especies de animales
+# Aplicación de escritorio para clasificar especies de animales
+
+
+
+
