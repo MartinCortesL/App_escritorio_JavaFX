@@ -114,7 +114,7 @@ Resultados obtenidos entre el dataset de entrenamiento y el dataset de validaci�
 Enseguida se muestra los resultados y la evoluci처n durante la aplicaci처n de una validaci처n cruzada con diez folds.
 <div align="center">
 
- <img src="imgenes/segunda_iteraci처n.png" alt="Validaci처n cruzada con 10 folds" height="1000">
+ <img src="[imgenes/segunda_iteraci처n.png](https://github.com/MartinCortesL/app_movile_kotlin/blob/05d8c181a40b6c72d6ff11f77dd58591f23dafd4/imgenes/segunda_iteraci%C3%B3n.png)" alt="Validaci처n cruzada con 10 folds" height="1000">
 </div>
 
 ***
