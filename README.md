@@ -43,13 +43,21 @@ Por otro lado, el modelo puro entrenado se puede descargar en: [Modelo ResNet50]
 
 ### Diseño de la aplicación
 
-La arquitectura de la aplicación es la siguiente:
+La arquitectura de la aplicación está basada en capas, contando con 4 capas los cuales son las siguientes:
+
+```mermaid
+flowchart TD
+    A[Interfaz de usuario] --> B[Dominio/Negocio]
+    B -->C[Almacenamiento]
+    C --> E[Comunicación externa]
+```
+
+ 1. La capa de UI es donde se encuentran los diseños para facilitar el trabajo de los usuarios, siendo intuitivo su uso.
+ 2. La capa de Dominio/Negocio contiene el backend necesario con el cual funciona la aplicación
+ 3. La capa de Almacenamiento contiene pequeños archivos y el modelo JSON con el cual se clasifica las imágenes.
+ 4. La capa de Comunicación externa es la conexión entre las imagenes y observaciones que haga el usuario con la base de datos externa de FireBase de Google.
 
 
-<div align="center">
-   <img src="" alt="Pantalla principal" width="360" height="783">
- -- imagen
-</div>
 
 <details>
 <summary><b>Click para ver los Mockups de la aplicación</b></summary>
