@@ -1,7 +1,7 @@
 # Clasificador de animales
 ## Aplicación de escritorio para identificar animales
 ### Descripción
-En el presente repositorio se muestra el código fuente con el que fue creado la aplicación de escritorio, ésta fue hecha con Flutter y con el lenguaje de programación Dart.
+En el presente repositorio se muestra el código fuente con el que fue creado la aplicación de escritorio, ésta fue JavaFX.
 
 Con el fin de identificar a los animales correctamente se entrenó un modelo de CNN con pytorch y un aproximado de 20k de imágenes, dichas imágenes se encuentran en: [Zenodo](https://doi.org/10.5281/zenodo.19926200),  adémas, los animales que se pueden identificar con dicha aplicación son los siguientes:
 
