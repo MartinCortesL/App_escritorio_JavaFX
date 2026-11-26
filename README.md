@@ -83,7 +83,16 @@ Cabe destacar que el resultado solo se almacenará cuando su porcentaje de confi
 <details>
 <summary><b>Click para ver los Mockups de la aplicación</b></summary>
  <div align="center">
- 
+  
+  <img src="imagenes/Login.png" alt="Pantalla de login para los usuarios" height="1000">
+  <img src="imagenes/registro.png" alt="Pantalla para registrar nuevos usuarios" height="1000">
+  <img src="imagenes/pan_clas.png" alt="Pantalla para realizar la clasificación de una imagen" height="1000">
+  <img src="imagenes/clas_cargar.png" alt="Pantalla de carga mientras se realiza la clasificación" height="1000">
+  <img src="imagenes/clas_error.png" alt="Pantalla de error al momento de no identificar a la especie" height="1000">
+  <img src="imagenes/.png" alt="Validación cruzada con 10 folds" height="1000">
+  <img src="imagenes/_Cross-Val segunda iteración.png" alt="Validación cruzada con 10 folds" height="1000">
+  <img src="imagenes/_Cross-Val segunda iteración.png" alt="Validación cruzada con 10 folds" height="1000">
+  
  </div>
 </details>
 
