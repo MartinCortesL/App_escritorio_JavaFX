@@ -85,13 +85,15 @@ Cabe destacar que el resultado solo se almacenará cuando su porcentaje de confi
  <div align="center">
   
   <img src="imagenes/Login.png" alt="Pantalla de login para los usuarios" height="1000">
+  
+En esta pantalla el usuario podrá ingresar un email y contraseña para entrar a la aplicación. Si decide usar la opción "entrar con Google" internamente se revisará si existe alguna cuenta almacenada en la base de datos y se conectará si es así, en caso de que no exista alguna cuenta, internamente se registrará el email asociado a Gmail de Google.
   <img src="imagenes/registro.png" alt="Pantalla para registrar nuevos usuarios" height="1000">
-  <img src="imagenes/pan_clas.png" alt="Pantalla para realizar la clasificación de una imagen" height="1000">
-  <img src="imagenes/clas_cargar.png" alt="Pantalla de carga mientras se realiza la clasificación" height="1000">
-  <img src="imagenes/clas_error.png" alt="Pantalla de error al momento de no identificar a la especie" height="1000">
-  <img src="imagenes/.png" alt="Validación cruzada con 10 folds" height="1000">
-  <img src="imagenes/_Cross-Val segunda iteración.png" alt="Validación cruzada con 10 folds" height="1000">
-  <img src="imagenes/_Cross-Val segunda iteración.png" alt="Validación cruzada con 10 folds" height="1000">
+  <img src="imagenes/pan_clas.PNG" alt="Pantalla para realizar la clasificación de una imagen" height="1000">
+  <img src="imagenes/clas_cargar.PNG" alt="Pantalla de carga mientras se realiza la clasificación" height="1000">
+  <img src="imagenes/clas_error.PNG" alt="Pantalla de error al momento de no identificar a la especie" height="1000">
+  <img src="imagenes/especies.PNG" alt="Pantalla que menciona las especies que clasifica" height="1000">
+  <img src="imagenes/historial.PNG" alt="Pantalla que muestra las clasificaciones que ha hecho el usuario" height="1000">
+  <img src="imagenes/historial_especie.PNG" alt="Pantalla que muestra la ficha que el usuario eligió" height="1000">
   
  </div>
 </details>
