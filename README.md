@@ -59,12 +59,24 @@ flowchart TD
 
 ---
 ### Diseño de la Base de datos
-La base de datos en esta aplicación consta de 2 tablas relacionadas de una a muchas, la primera tabla contiene 4 elementos que sirven para almacenar los datos del usuario.
-| ***Usuarios***   |
-| :--------- |
-| ID         |
-| Email      |
-| Contraseña |
+La base de datos en esta aplicación consta de 2 tablas relacionadas de una a muchas, la primera tabla contiene 3 elementos que sirven para almacenar e identificar los datos del usuario.
+
+| ***Usuarios*** |
+| :------------- |
+| ID             |
+| Email          |
+| Contraseña     |
+
+La segunda tabla contiene 5 elementos para almacenar los datos al momento de realizar la clasificación de alguna imagen por cada usuario.
+| ***Resultado*** |
+| :-------------- |
+| ID              |
+| Especie         |
+| Confianza       |
+| Imagen          |
+| Id_usuario      |
+
+Cabe destacar que el resultado solo se almacenará cuando su porcentaje de confianza es mayor a 75%, del mismo modo, para acceder a esta base de datos se realizará una petición a una API REST perteneciente a la RealTime Database de Google. 
 
 ---
 
