@@ -57,7 +57,16 @@ flowchart TD
  3. La capa de Almacenamiento contiene pequeños archivos y el modelo JSON con el cual se clasifica las imágenes.
  4. La capa de Comunicación externa es la conexión entre las imagenes y observaciones que haga el usuario con la base de datos externa de FireBase de Google.
 
+---
+### Diseño de la Base de datos
+La base de datos en esta aplicación consta de 2 tablas relacionadas de una a muchas, la primera tabla contiene 4 elementos que sirven para almacenar los datos del usuario.
+| ***Usuarios***   |
+| :--------- |
+| ID         |
+| Email      |
+| Contraseña |
 
+---
 
 <details>
 <summary><b>Click para ver los Mockups de la aplicación</b></summary>
