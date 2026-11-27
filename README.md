@@ -81,21 +81,65 @@ Cabe destacar que el resultado solo se almacenará cuando su porcentaje de confi
 ---
 
 <details>
-<summary><b>Click para ver los Mockups de la aplicación</b></summary>
+<summary><b>Click para ver el diseño de la API Rest</b></summary>
  <div align="center">
-  
-  <img src="imagenes/Login.png" alt="Pantalla de login para los usuarios" height="1000">
-  
-En esta pantalla el usuario podrá ingresar un email y contraseña para entrar a la aplicación. Si decide usar la opción "entrar con Google" internamente se revisará si existe alguna cuenta almacenada en la base de datos y se conectará si es así, en caso de que no exista alguna cuenta, internamente se registrará el email asociado a Gmail de Google.
-  <img src="imagenes/registro.png" alt="Pantalla para registrar nuevos usuarios" height="1000">
-  <img src="imagenes/pan_clas.PNG" alt="Pantalla para realizar la clasificación de una imagen" height="1000">
-  <img src="imagenes/clas_cargar.PNG" alt="Pantalla de carga mientras se realiza la clasificación" height="1000">
-  <img src="imagenes/clas_error.PNG" alt="Pantalla de error al momento de no identificar a la especie" height="1000">
-  <img src="imagenes/especies.PNG" alt="Pantalla que menciona las especies que clasifica" height="1000">
-  <img src="imagenes/historial.PNG" alt="Pantalla que muestra las clasificaciones que ha hecho el usuario" height="1000">
-  <img src="imagenes/historial_especie.PNG" alt="Pantalla que muestra la ficha que el usuario eligió" height="1000">
-  
+ 
  </div>
+</details>
+
+---
+
+<details>
+<summary><b>Click para ver los Mockups de la aplicación</b></summary>
+ 
+ <div align="center">
+   <img src="imagenes/Login.png" alt="Pantalla de login para los usuarios" height="1000">
+ </div>
+ 
+En esta pantalla el usuario podrá ingresar un email y contraseña para entrar a la aplicación. Si decide usar la opción "entrar con Google" internamente se revisará si existe alguna cuenta almacenada en la base de datos y se conectará si es así, en caso de que no exista alguna cuenta, internamente se registrará el email asociado a Gmail de Google.
+
+ <div align ="center">
+  <img src="imagenes/registro.png" alt="Pantalla para registrar nuevos usuarios" height="1000">
+ </div>
+ 
+La pantalla anterior muestra los datos que se necesitan para el registro de nuevos usuarios. En este caso solo se necesitan el email y una contraseña.
+
+ <div align ="center">
+  <img src="imagenes/pan_clas.PNG" alt="Pantalla para realizar la clasificación de una imagen" height="1000">
+ </div>
+ 
+Aquí el usuario podrá subir alguna imagen desde el almacenamiento del PC con formato PNG, dicha imagen será enviada mediante una petición al servidor donde se aloja la API, y ésta revolverá los resultados correspondientes a esa imagen.
+
+ <div align = "center">
+  <img src="imagenes/clas_cargar.PNG" alt="Pantalla de carga mientras se realiza la clasificación" height="1000">
+ </div>
+ 
+Al momento de enviar la imagen al servidor y mientras espera una respuesta, el sistema mostrará un carga indefinida por algunos segundos.
+
+ <div align= "center">
+  <img src="imagenes/clas_error.PNG" alt="Pantalla de error al momento de no identificar a la especie" height="1000">
+ </div>
+
+En caso de que el porcentaje de confianza sea menor a 75% u ocurra alguna excepción, se mostrará un dialog especificando el tipo de error que ha ocurrido.
+
+ <div align = "center">
+  <img src="imagenes/especies.PNG" alt="Pantalla que menciona las especies que clasifica" height="1000">
+ </div>
+
+Un apartado dentro de la aplicación que detalla de manera concisa, con una imagen y datos específicos, cada especie que el modelo es capaz de clasificar.
+
+ <div align = "center">
+  <img src="imagenes/historial.PNG" alt="Pantalla que muestra las clasificaciones que ha hecho el usuario" height="1000">
+ </div>
+
+El usuario podrá visualizar un listado de todas las clasificaciones que ha realizado (con un límite de 20 por página) en la aplicación, en caso de que sea la primera vez que usa la aplicación y no ha hecho ninguna clasificación, el usuario no podrá entrar, simplemente mostrará un dialog con la explicación de porque no puede entrar.
+
+ <div align = "center">
+  <img src="imagenes/historial_especie.PNG" alt="Pantalla que muestra la ficha que el usuario eligió" height="1000">
+ </div>
+
+Cuando se está en el apartado del historial, el usuario al clickear una entrada el programa mostrará una pantalla con la información resumida y los resultados obtenida durante la clasificación.
+ 
 </details>
 
 ***
